@@ -1,0 +1,66 @@
+{
+  "name": "المصدر العربي الأصلي لبرنامج LeaderThon"،
+  "description": "مرحبًا بكم في برنامج Arab Telethon 8.1v { @iqLeaderThon }",
+  "الشعار": "https://telegra.ph/file/46cc087ec231116cf18d1.jpg",
+  "الكلمات الرئيسية": ["المكون الإضافي"، "معياري"، "الإنتاجية"]،
+  "المستودع": "https://github.com/thegang2/iqLeaderThon"،
+  "موقع الويب": "#TODO",
+  "success_url": "#TODO"،
+  "بيئة": {
+    "ALIVE_NAME": {
+      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "قيمة": ""
+    },
+    "معرف_التطبيق": {
+      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من ارقام",
+      "قيمة": ""
+    },
+    "API_HASH": {
+      "description": "هنا ضع الايبي هاش الخاص بك يتكون من حرف و ارقام",
+      "قيمة": ""
+    },
+    "STRING_SESSION": {
+      "description": " ضع كود تيرمكس",
+      "قيمة": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": " ضع معرف بوتك بدون @",
+      "قيمة": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "ضع توكن بوتك",
+      "قيمة": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "اتركة كما هوة او ضع الأمر الذي أبعد من وجهات النظر",
+      "قيمة": "."
+    },
+    "تز": {
+      "description": "ضع القاره / عاصمة بلدك ( اذا كنت لاتعرفه تترك كما هوة )",
+      "القيمة": "آسيا/بغداد"،
+      "مطلوب": خطأ
+    }
+  },
+  "الإضافات": [{
+    "الخطة": "heroku-postgresql"،
+    "خيارات": {
+      "الإصدار": "12"
+    }
+  }]،
+  "حزم البناء": [{
+    "url":https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "heroku/python"
+  }]،
+  "المكدس": "heroku-22"
+}
